@@ -1,8 +1,11 @@
-const btn = document.getElementById('btn');
-btn.addEventListener('click', () => {
-    let nums = [1, 2, 2, 3, 4, 4, 4, 5];
-    duplicates(nums);
-});
+
+window.onload = () =>{
+    const btn = document.getElementById('btn');
+    btn.addEventListener('click', () => {
+        let nums = [1, 2, 2, 3, 4, 4, 4, 5];
+        duplicates(nums);
+    });
+}
 
 
 /**
